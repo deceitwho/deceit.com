@@ -1,0 +1,76 @@
+/* General styles */
+body {
+    
+    background-color: #333333; /* Dark grey background */
+    
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    font-family: Arial, sans-serif;
+    color: grey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Container for content */
+.container {
+    text-align: center;
+}
+
+/* Heading style */
+h1 {
+    font-size: 3em;
+    margin-bottom: 20px;
+}
+
+/* Buttons container */
+.buttons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+/* Scam button style */
+.scam-btn {
+    background-color: red;
+    color: white;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 30px;
+    font-size: 1.2em;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.scam-btn:hover {
+    background-color: darkred;
+}
+
+/* Trusted button style */
+.trusted-btn {
+    background-color: green;
+    color: white;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 30px;
+    font-size: 1.2em;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.trusted-btn:hover {
+    background-color: darkgreen;
+}
+
+/* Poll Section */
+.poll-section {
+    margin-top: 20px;
+}
+
+.results {
+    margin-top: 20px;
+    color: white;
+    font-size: 1.2em;
+}

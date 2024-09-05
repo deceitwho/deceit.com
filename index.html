@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>DECEIT!</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>DECEIT!</h1>
+        <p>Check if a website is trustworthy or a scam.</p>
+        <div class="poll-section">
+            <h2>Vote Now</h2>
+            <div class="buttons">
+                <button class="scam-btn" onclick="vote('scam')">Scam</button>
+                <button class="trusted-btn" onclick="vote('trusted')">Trusted</button>
+            </div>
+            <div class="results">
+                <p><strong>Scam:</strong> <span id="scamVotes">0</span> votes</p>
+                <p><strong>Trusted:</strong> <span id="trustedVotes">0</span> votes</p>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
